@@ -494,3 +494,29 @@ body {
 
 .ss h1, .ss h4 { margin-top: 0; }
 .ss h1 { margin-bottom: 30px; }
+
+.inset img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+.inset p, .bodysm {
+    color: #666463;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.inset h4 {
+    text-align: center;
+}
+
+.inset p.succ_name {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.succ_text {
+    height: 80px;
+    overflow: hidden;
+}
