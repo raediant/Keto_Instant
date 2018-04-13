@@ -520,3 +520,15 @@ body {
     height: 80px;
     overflow: hidden;
 }
+
+.icon {
+    display: inline-block;
+    color: #ffffff;
+    width: 1em;
+    height: 1em;
+    fill: #ffffff;
+}
+
+.st0 {
+    fill: #FFFFFF;
+}
