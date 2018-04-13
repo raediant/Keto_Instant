@@ -83,7 +83,7 @@ sup {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+    color: rgba(255, 255, 255, 0.7);
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -91,7 +91,7 @@ sup {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+    color: #fff;
   outline: none;
   background-color: transparent;
 }
@@ -109,6 +109,11 @@ sup {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+
+.navbar-custom a.bonus {
+    color: #fff;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
